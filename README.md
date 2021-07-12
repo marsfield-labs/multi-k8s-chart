@@ -30,6 +30,10 @@ helm package multi-k8s
 
 This will create a package archive in current directory, e.g. `multi-k8s-0.1.0.tgz`.
 
+## Exclude extra files
+
+We can add more filepath patterns in `.helmignore` to exclude the files we don't want. The we can update the package run package again.
+
 ## References
 
 * [Chart doc](https://helm.sh/docs/topics/charts/)

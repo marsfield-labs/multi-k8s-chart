@@ -3,10 +3,13 @@
 # negation (prefixed with !). Only one pattern per line.
 .DS_Store
 # Common VCS dirs
+.editorconfig
 .git/
+.gitattributes
 .gitignore
 .bzr/
 .bzrignore
+.helmignore
 .hg/
 .hgignore
 .svn/
