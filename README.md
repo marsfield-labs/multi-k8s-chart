@@ -20,6 +20,16 @@ charts/  .git/  templates/  Chart.yaml  .helmignore  README.md  values.yaml
 
 For explanation of chart folder structure, check out [this page](https://helm.sh/docs/topics/charts/#the-chart-file-structure).
 
+## Package chart
+
+We can build our chart package now, run:
+
+```sh
+helm package multi-k8s
+```
+
+This will create a package archive in current directory, e.g. `multi-k8s-0.1.0.tgz`.
+
 ## References
 
 * [Chart doc](https://helm.sh/docs/topics/charts/)
