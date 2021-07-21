@@ -37,3 +37,20 @@ We can add more filepath patterns in `.helmignore` to exclude the files we don't
 ## References
 
 * [Chart doc](https://helm.sh/docs/topics/charts/)
+* [Go template](https://pkg.go.dev/text/template?utm_source=godoc#section-documentation)
+* [Sprig Functions](https://masterminds.github.io/sprig/)
+
+### Template Functions
+
+* include
+* required
+* tpl
+* if
+* with
+* toYaml
+* nindent
+* define
+* default
+* lower
+* quote
+* print
