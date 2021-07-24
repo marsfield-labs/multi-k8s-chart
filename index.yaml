@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  multi-k8s:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-07-24T02:02:42.424606627Z"
+    description: A Helm chart for Kubernetes
+    digest: 84915fbf7b6c6b315b4a417b58484b9bf4f91ba0a794232c686856e245f2a097
+    name: multi-k8s
+    type: application
+    urls:
+    - https://github.com/marsfield-labs/multi-k8s-chart/releases/download/multi-k8s-0.1.2/multi-k8s-0.1.2.tgz
+    version: 0.1.2
+generated: "2021-07-24T02:02:42.424611827Z"
